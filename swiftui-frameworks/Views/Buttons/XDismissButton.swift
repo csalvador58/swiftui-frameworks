@@ -22,10 +22,6 @@ struct XDismissButton: View {
                     .imageScale(.large)
                     .frame(width: 44, height: 44)
             }
-//                .sheet(isPresented: $isShowingSafariView, content: {
-//            .fullScreenCover(isPresented: $isShowingSafariView, content: {
-//                SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
-//            })
         }
         .padding()
     }
