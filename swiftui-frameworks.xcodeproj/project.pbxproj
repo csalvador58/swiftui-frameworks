@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B903C08A2C21100500378530 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B903C0892C21100500378530 /* FrameworkDetailView.swift */; };
+		B903C08C2C21127B00378530 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B903C08B2C21127B00378530 /* AFButton.swift */; };
 		B993AAC92C201A1900A0500B /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B993AAC82C201A1900A0500B /* FrameworkGridView.swift */; };
 		B9DE50B52C1D058E00C77C78 /* swiftui_frameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50B42C1D058E00C77C78 /* swiftui_frameworksApp.swift */; };
 		B9DE50B92C1D058F00C77C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DE50B82C1D058F00C77C78 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B903C0892C21100500378530 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		B903C08B2C21127B00378530 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		B993AAC82C201A1900A0500B /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		B9DE50B12C1D058E00C77C78 /* swiftui-frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE50B42C1D058E00C77C78 /* swiftui_frameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_frameworksApp.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				B9DE50B42C1D058E00C77C78 /* swiftui_frameworksApp.swift */,
 				B993AAC82C201A1900A0500B /* FrameworkGridView.swift */,
+				B903C0892C21100500378530 /* FrameworkDetailView.swift */,
+				B903C08B2C21127B00378530 /* AFButton.swift */,
 				B9DE50C22C1D05EC00C77C78 /* framework.swift */,
 				B9DE50B82C1D058F00C77C78 /* Assets.xcassets */,
 				B9DE50BA2C1D058F00C77C78 /* Preview Content */,
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B903C08A2C21100500378530 /* FrameworkDetailView.swift in Sources */,
 				B993AAC92C201A1900A0500B /* FrameworkGridView.swift in Sources */,
 				B9DE50C32C1D05EC00C77C78 /* framework.swift in Sources */,
+				B903C08C2C21127B00378530 /* AFButton.swift in Sources */,
 				B9DE50B52C1D058E00C77C78 /* swiftui_frameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
